@@ -1,4 +1,4 @@
-const RealisatioPage = () => {
+const RealisationPage = () => {
     return (
         <div>
             
@@ -6,4 +6,5 @@ const RealisatioPage = () => {
     );
 }
 
-export default RealisatioPage;
+export default RealisationPage;
+
