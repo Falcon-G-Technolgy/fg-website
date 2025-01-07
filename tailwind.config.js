@@ -12,6 +12,12 @@ export default {
         'tablet': '768px', // Tablette
         'desktop': '1024px', // Ordinateur
       },
+      colors: {
+        'main-yellow': '#FFBC41',
+        'main-blue': '#37517E',
+        'main-white': '#FFFEFE',
+        'main-black': '#23272B'
+      }
     },
   },
   plugins: [],
