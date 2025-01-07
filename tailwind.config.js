@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       screens: {
-        'xxs': '230px', // Très petit téléphone
-        'xs': '300px', // Smartphone classique ou un peu grand
-        'tablet': '768px', // Tablette
-        'desktop': '1024px', // Ordinateur
+        'xxs': { 'max': '250px' }, // Très petit téléphone
+        'xs': { 'max': '380px' }, // Smartphone classique ou un peu grand
+        'tablet': { 'max': '768px' }, // Tablette
+        'desktop': { 'max': '1024px' }, // Ordinateur
       },
       colors: {
         'main-yellow': '#FFBC41',
