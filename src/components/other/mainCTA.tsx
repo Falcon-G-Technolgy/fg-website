@@ -8,7 +8,8 @@ interface CtaType {
 const MainCTA = React.memo (({to, linkText}: CtaType) => {
     return (
         <Link to={to}>
-            <span className="bg-main-yellow hover:bg-secondary-yellow px-5 py-3 rounded-md text-center ">
+            <span 
+            className="bg-main-yellow hover:bg-secondary-yellow px-5 py-3 rounded-md text-center ">
                 {linkText}
             </span>
         </Link>
