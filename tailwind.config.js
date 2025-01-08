@@ -16,7 +16,8 @@ export default {
         'main-yellow': '#FFBC41',
         'main-blue': '#37517E',
         'main-white': '#FFFEFE',
-        'main-black': '#23272B'
+        'main-black': '#23272B',
+        'secondary-yellow': '#FBA200'
       }
     },
   },

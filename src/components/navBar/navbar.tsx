@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Onglets from "./components/onglets";
+import MainCTA from "../other/mainCTA";
 
 const Navbar = () => {
     return (
@@ -12,8 +13,9 @@ const Navbar = () => {
                         <img className=" xs:size-12 size-14" src="/logotype-fg.PNG" alt="Falcon G Technology" />
                     </picture>                
                 </Link>
-                <div>
+                <div className="flex items-center gap-12">
                     <Onglets/>
+                    <MainCTA to="" linkText="Commander un logiciel"/>
                 </div>
             </nav>            
         </header>
