@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 
 interface CtaType {
     to: string,
-    linkText: string
+    linkText: string,
+    color?: string
 }
-const MainCTA = React.memo (({to, linkText}: CtaType) => {
+const MainCTA = React.memo (({to, linkText, color='bg-main-yellow'}: CtaType) => {
     return (
         <Link to={to}>
             <span 
-            className="bg-main-yellow hover:bg-secondary-yellow px-5 py-3 rounded-md text-center ">
+            className={` ${color} hover:bg-secondary-yellow px-5 py-3 rounded-md text-center`} >
                 {linkText}
             </span>
         </Link>
