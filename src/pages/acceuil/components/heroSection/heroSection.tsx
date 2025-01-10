@@ -24,11 +24,11 @@ const imgVariant = {
 
 const HeroSection = () => {
     return (
-        <section className="bg-main-yellow sm:h-[36rem] flex items-center sm:justify-between flex-col sm:flex-row pt-8 sm:pt-0 ">
+        <section className="bg-main-yellow sm:h-[36rem] flex items-center sm:justify-between flex-col sm:flex-row pt-16 sm:pt-0 ">
             <MainContent/>
             <motion.img 
             className="w-96"
-            variants={imgVariant} initial="initial" animate="animate" whileHover="hover"
+            variants={imgVariant} initial="initial" animate="animate" whileHover="hover" whileTap="hover"
             src="/section-hero.png" alt="Homme s'envolant avec joie avec la technologie" />
         </section>
     );

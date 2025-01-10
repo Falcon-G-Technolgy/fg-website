@@ -5,7 +5,7 @@ const HomePage = () => {
     return (
         <>
             <Navbar/>
-            <div className="relative top-16 sm:static ">
+            <div className="relative top-20 sm:top-24 ">
                 <HeroSection/>
             </div>
         </>
