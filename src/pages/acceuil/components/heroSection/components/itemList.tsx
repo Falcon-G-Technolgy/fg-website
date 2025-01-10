@@ -3,9 +3,11 @@ import ListPoint from "./listPoint";
 
 const ItemList = React.memo (({offer}: {offer: string}) => {
     return (
-        <li className="flex items-center gap-1">
-            <ListPoint/>
-            <p className="text-black">{offer}</p>
+        <li className="flex gap-2 ">
+            <div className="w-5">
+                <ListPoint/>
+            </div>
+            <p className="text-black opacity-90 ">{offer}</p>
         </li>
     );
 })

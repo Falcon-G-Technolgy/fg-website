@@ -12,6 +12,12 @@ const imgVariant = {
         transition: {
             delay: 1
         }
+    },
+    hover: {
+        x: -50,
+        transition: {
+            duration: 2
+        }
     }
 }
 const HeroSection = () => {
@@ -20,7 +26,7 @@ const HeroSection = () => {
             <MainContent/>
             <motion.img 
             className="w-96"
-            variants={imgVariant} initial="initial" animate="animate"
+            variants={imgVariant} initial="initial" animate="animate" whileHover="hover"
             src="/section-hero.jpg" alt="Homme s'envolant avec joie avec la technologie" />
         </section>
     );
