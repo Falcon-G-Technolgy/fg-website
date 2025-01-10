@@ -20,9 +20,10 @@ const imgVariant = {
         }
     }
 }
+
 const HeroSection = () => {
     return (
-        <section className="bg-main-yellow h-[36rem] flex items-center sm:justify-between flex-col sm:flex-row pt-8 sm:pt-0 ">
+        <section className="bg-main-yellow sm:h-[36rem] flex items-center sm:justify-between flex-col sm:flex-row pt-8 sm:pt-0 ">
             <MainContent/>
             <motion.img 
             className="w-96"
