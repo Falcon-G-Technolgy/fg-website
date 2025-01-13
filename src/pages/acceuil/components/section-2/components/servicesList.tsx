@@ -12,7 +12,7 @@ const ServicesList = () => {
 
                 <li className="flex gap-2 ">
                     <div className="w-5"><ListPoint/></div>
-                    <p className="text-black opacity-90 flex items-center gap-1 ">Des apllications <TextMarked text="web et web-mobile"/> </p>
+                    <p className="text-black opacity-90 flex items-center gap-1 ">Des apllications <TextMarked text="web et web-mobile" bg="main-blue" /> </p>
                 </li>
 
                 <li className="flex gap-2 ">
