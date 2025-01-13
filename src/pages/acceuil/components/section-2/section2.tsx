@@ -12,7 +12,7 @@ const Section2 = () => {
                 <p className="text-xl ">Nous contribuons a la digitalisation de votre entreprise en vous offrant:</p>
                 <LazySerciceList/>
                 <div className="mt-5">
-                   <MainCTA to="" linkText="J'ai besoin d'un logiciel" bgColor="main-blue"/> 
+                   <MainCTA to="" linkText="J'ai besoin d'un logiciel" bgColor="blue-900"/> 
                 </div>
             </div>
             <div className="xs:w-full w-1/4">
