@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <header>
             <div className="w-full bg-white h-6 z-40 fixed"/>
-            <nav className="bg-main-black py-2 sm:py-3 px-4 sm:px-8 fixed top-5 w-full z-30 flex items-center justify-between text-white">
+            <nav className="bg-main-black xs:py-2 py-3 px-4 sm:px-8 fixed top-5 w-full z-30 flex items-center justify-between text-white">
                 <Link to="/">
                     <picture>
                         <source srcSet="/web-pics/logotype-fg.webp" type="image/webp" />

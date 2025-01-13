@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const imgVariant = {
     initial: {
         opacity: 0,
-        x: 20
+        x: 10
     },
     animate: {
         opacity: 1,
@@ -14,11 +14,7 @@ const imgVariant = {
         }
     },
     hover: {
-        x: -50,
-        y: 20,
-        transition: {
-            duration: 2
-        }
+        y: -20,
     }
 }
 const SectionImage = () => {

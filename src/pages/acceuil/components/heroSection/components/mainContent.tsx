@@ -31,8 +31,8 @@ const MainContent = () => {
             <motion.div
             initial={{ opacity: 0, y: -20, scale: 0.5 }} animate={{ opacity: 1, y: 0,scale:1 , transition: {delay: 2.5}}}
             className="text-white relative top-7 flex flex-col sm:flex-row gap-7  sm:gap-3 z-10 ">
-                <MainCTA to="" linkText="Commander un logiciel" color="bg-main-black"/>
-                <MainCTA to="" linkText="Nous contacter" color="bg-main-blue"/>
+                <MainCTA to="" linkText="Commander un logiciel" bgColor="black"/>
+                <MainCTA to="" linkText="Nous contacter" bgColor="main-blue"/>
             </motion.div>
         </div>
     );

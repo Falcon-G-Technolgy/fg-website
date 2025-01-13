@@ -7,7 +7,7 @@ const HomePage = () => {
     return (
         <>
             <Navbar/>
-            <div className="relative top-20 sm:top-24 ">
+            <div className="relative top-20 tablet:top-10 desktop:top-24 ">
                 <LazyeHeroSection/>
                 <LazySection2/>
             </div>

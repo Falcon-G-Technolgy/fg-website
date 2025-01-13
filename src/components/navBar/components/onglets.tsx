@@ -10,7 +10,7 @@ const Onglets = () => {
         {to: '/contact', ongletName: 'Contact'},
     ]
     return (
-        <div className="flex gap-5 xs:hidden">
+        <div className="flex gap-5 xs:hidden tablet:hidden">
             {
                 ongletTable.map ((onglet, key) => <ItemOnglet key={key} to={onglet.to} ongletName={onglet.ongletName}/>  )
             }
