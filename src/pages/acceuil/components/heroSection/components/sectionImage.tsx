@@ -22,7 +22,7 @@ const SectionImage = () => {
         <div>
             <motion.img 
             className="w-96"
-            variants={imgVariant} initial="initial" whileInView="animate" whileHover="hover" whileFocus ="hover"
+            variants={imgVariant} initial="initial" animate="animate" whileHover="hover"
             src="/section-hero.png" loading="lazy" alt="Homme s'envolant avec joie avec la technologie" />
         </div>
     );
