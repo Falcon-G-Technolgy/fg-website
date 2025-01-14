@@ -3,6 +3,7 @@ import Navbar from "../../components/navBar/navbar";
 
 const LazyeHeroSection = React.lazy (() => import ('./components/heroSection/heroSection'))
 const LazySection2 = React.lazy (() => import ('./components/section-2/section2'))
+const LazySection3 = React.lazy (() => import ('./components/section-3/section3'))
 const HomePage = () => {
     return (
         <>
@@ -10,6 +11,7 @@ const HomePage = () => {
             <div className="relative top-20 tablet:top-10 desktop:top-24 ">
                 <LazyeHeroSection/>
                 <LazySection2/>
+                <LazySection3/>
             </div>
         </>
     );
