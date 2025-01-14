@@ -1,3 +1,4 @@
+import MainCTA from "../../../../components/other/mainCTA";
 import TextMarked from "../../../../components/other/textMarked";
 import ItemList from "./components/itemList";
 
@@ -13,21 +14,22 @@ const Section3 = () => {
     return (
         <section className="bg-main-yellow flex flex-col gap-8 items-center py-10 xs:px-8 sm:px-24">
             <h1 className="flex xs:flex-col xs:w-full gap-2 text-2xl xs:text-3xl text-gray-900 font-semibold">
-            Vous avez besoin d'une<TextMarked text="Identité visuelle"/> propre à vous ! 
+            Vous avez besoin d'une <TextMarked text="Identité visuelle" /> propre à vous ! 
             </h1>
             <div className="flex xs:flex-col gap-5">
                 <img className="sm:w-2/4 rounded-lg  "
                 src="/images/section-3.jpg" loading="lazy" alt="Obtenez une identite visuel propre a vous!" />
-                <div>
-                    <div className="text-xl">
-                        <h2>Nous offrons des services de création visuelle pour aider nos clients à se démarquer avec des designs modernes et impactant.</h2>
+                <div className="flex flex-col gap-4">
+                    <div className="text-[1.20rem]">
+                        <h2 >Nous offrons des services de création visuelle pour aider nos clients à se démarquer avec des designs modernes et impactant.</h2>
                         <p>Cela inclut notament:</p>                        
                     </div>
-                    <ul className="flex flex-col gap-3">
+                    <ul className="flex flex-col gap-3 mb-5">
                         {
                             itemList.map ((item, key) => <ItemList key={key} firstText={item.firstText} textMarked={item.markedText} />)
                         }
                     </ul>
+                    <MainCTA to="" linkText="J'ai besoin d'un logiciel" bgColor="main-blue"/>
                 </div>
             </div>
         </section>
