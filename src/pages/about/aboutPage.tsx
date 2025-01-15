@@ -3,7 +3,7 @@ import Header from "./component/Header";
 
 const AboutPage = () => {
     return (
-        <div>
+        <div className="flex flex-col justify-around overflow-x-hidden">
             <Navbar/>
             <Header/>
         </div>
