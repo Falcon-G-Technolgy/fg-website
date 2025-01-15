@@ -4,6 +4,7 @@ import Navbar from "../../components/navBar/navbar";
 const LazyeHeroSection = React.lazy (() => import ('./components/heroSection/heroSection'))
 const LazySection2 = React.lazy (() => import ('./components/section-2/section2'))
 const LazySection3 = React.lazy (() => import ('./components/section-3/section3'))
+const LazySection4 = React.lazy (() => import ('./components/section-4/section4'))
 const HomePage = () => {
     return (
         <>
@@ -12,6 +13,7 @@ const HomePage = () => {
                 <LazyeHeroSection/>
                 <LazySection2/>
                 <LazySection3/>
+                <LazySection4/>
             </div>
         </>
     );
