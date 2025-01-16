@@ -17,7 +17,14 @@ export default {
         'main-white': '#FFFEFE',
         'main-black': '#23272B',
         'secondary-yellow': '#FBA200'
-      }
+      },
+      backgroundColor: {
+        'main-yellow': '#FFBC41',
+        'main-blue': '#37517E',
+        'main-white': '#FFFEFE',
+        'main-black': '#23272B',
+        'secondary-yellow': '#FBA200'
+      },
     },
   },
   plugins: [],
