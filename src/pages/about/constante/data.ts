@@ -15,3 +15,10 @@ export const aboutUs = {
     democratique du congo , travaille avec des imprimeries,des pharmacie et diverses entreprises desirant adopterdes solution numerique pour optimiser leur productivite et 
     offrir un meilleur  service a leur clientele`
 }
+
+export const misson = {
+    p1:` Nous mettons a votre disposition notre equipe qualifie 
+    pour vous accompagner dans vos projets a long ou a cout terme. `,
+    p2:`Et ce, en partant de l'analyse de vos besoins jusqu'a l'elaboration
+    d'une solution repondant a ce besoin , de maniere efficace et securisee`
+}
