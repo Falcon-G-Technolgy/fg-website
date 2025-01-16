@@ -1,5 +1,6 @@
 import Navbar from "../../components/navBar/navbar";
 import Header from "./component/Header";
+import Misson from "./component/Misson";
 import QuiNousSomme from "./component/QuiNousSomme";
 
 const AboutPage = () => {
@@ -9,6 +10,7 @@ const AboutPage = () => {
             <Navbar/>
             <Header/>
             <QuiNousSomme/>
+            <Misson/>
             </div>
            
         </div>
