@@ -8,6 +8,7 @@ const LazySection4 = React.lazy (() => import ('./components/section-4/section4'
 const LazySection5 = React.lazy (() => import ('./components/section-5/section5'))
 const LazySection6 = React.lazy (() => import ('./components/section-6/section6'))
 const LazySection7 = React.lazy (() => import ('./components/section-7/section7'))
+const LazySection8 = React.lazy (() => import ('./components/section-8/section8'))
 const HomePage = () => {
     return (
         <>
@@ -20,6 +21,7 @@ const HomePage = () => {
                 <LazySection5/>
                 <LazySection6/>
                 <LazySection7/>
+                <LazySection8/>
             </div>
         </>
     );

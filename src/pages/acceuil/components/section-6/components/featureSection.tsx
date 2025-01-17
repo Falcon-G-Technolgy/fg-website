@@ -22,7 +22,7 @@ export default function FeaturesSection() {
   return (
     <section className="w-full">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="grid grid-cols-1 tablet:grid-cols-1 gap-8 md:grid-cols-3">
           {features.map((feature, index) => (
             <div key={index} className="flex flex-col gap-4 rounded-lg bg-zinc-900 p-6">
               <div className="flex items-center gap-2">
