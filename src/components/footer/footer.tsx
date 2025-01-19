@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
             <div className="flex flex-col items-end  xs:gap-3">
                 <div className="flex xs:flex-col items-center gap-2">
                     <img src="/logotype-fg.PNG" className="size-16" alt="Logotype FG tech" />
-                    <div className="text-center">
+                    <div className="xs:text-center">
                         <h1 className="font-bold">Falcon-G Technology</h1>
                         <p>Se booster grace au digital !</p>
                     </div>
