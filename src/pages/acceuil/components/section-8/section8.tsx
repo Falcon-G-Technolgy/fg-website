@@ -2,10 +2,10 @@ import MainCTA from "../../../../components/other/mainCTA";
 
 const Section8 = () => {
     return (
-        <section className="bg-[url('/images/section-8.png')] h-[35rem] bg-center bg-cover content-center px-24 xs:px-8 ">
+        <section className="bg-[url('/images/section-8.png')] h-[35rem] bg-center bg-cover content-center px-24 xs:px-8 xs:py-16 ">
             <div className="w-2/4 xs:w-full flex flex-col gap-8">
                 <div className=" xs:w-2/4 flex flex-col gap-8">
-                    <h1 className="text-3xl text-main-white">Alors, pret a vous envoler dans la digitalisation?</h1>
+                    <h1 className="text-3xl xs:text-2xl text-main-white">Alors, pret a vous envoler dans la digitalisation?</h1>
                     <div className="text-main-white w-3/4 flex flex-col gap-2">
                         <p>Faites appel à notre expertise pour vos besoins en logiciels et support marketing.</p>
                         <p>Ramenez votre business à un autre niveau !</p>                
