@@ -1,13 +1,12 @@
 type TextMarkedType  = {
     text: string,
-    color?: string,
-    bg?: string
+    style?: string,
 }
 
-const TextMarked = ({text, color = 'white', bg = 'blue-900'}: TextMarkedType) => {
+const TextMarked = ({text, style}: TextMarkedType) => {
     return (
         <div className="rotate-3 ">
-            <mark className={`px-2 py-1 rotate-45 text-${color} bg-${bg} `}>
+            <mark className={ style ? style : 'px-2 py-1 rotate-45 text-white bg-black '}>
                 {text}
             </mark>            
         </div>
