@@ -1,7 +1,7 @@
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navBar/navbar";
 import Header from "./component/Header";
-import Misson from "./component/Misson";
+import Mission from "./component/Mission";
 import QuiNousSomme from "./component/QuiNousSomme";
 
 const AboutPage = () => {
@@ -11,7 +11,7 @@ const AboutPage = () => {
             <main>
                 <Header/>
                 <QuiNousSomme/>
-                <Misson/>                
+                <Mission/>                
             </main>
             <Footer/>
         </>

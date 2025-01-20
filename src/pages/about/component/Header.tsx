@@ -15,7 +15,7 @@ const Header = () => {
                   <TextMarked text={span} style="px-5 py-1 bg-[#FBA200] text-5xl text-black font-bold "/>
                   <p className="text-6xl font-bold text-white relative top-2">!</p>
                 </div>
-                <p className="text-xl mt-4 desktop:w-3/4 xs:w-full tablet:text-center">{description}</p>
+                <p className="text-xl mt-4 desktop:w-3/4 xs:w-full xs:text-center tablet:text-center">{description}</p>
             </div>
        </div>
        <div className="relative size-[25rem] xs:size-80 tablet:size-[39rem] "> 
