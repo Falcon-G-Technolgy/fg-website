@@ -5,3 +5,9 @@
 .active span {
     color: #FFBC41
 }
+
+@layer{
+    .bg_about {
+        @apply bg-[#2e7294]
+    }
+}
