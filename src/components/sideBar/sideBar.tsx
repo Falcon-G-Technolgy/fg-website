@@ -1,9 +1,16 @@
 import { NavLink } from "react-router-dom";
 import MainCTA from "../other/mainCTA";
 
+import { motion } from "framer-motion";
+
+const sidebarVariant = {
+    initial: { opacity: 0, x: -5 },
+    animate: { opacity: 1, x: 0, transition: { delay: 2 } }
+}
 const SideBar = ({sideBar}: { sideBar: boolean}) => {
     return (
-        <div className={ sideBar ? 'bg-black fixed top-0 left-0 h-screen w-64 bg-opacity-95 py-10 px-2' : 'hidden' } >
+        <motion.div variants={sidebarVariant} initial="initial" animate="animate"
+        className={ sideBar ? 'bg-black fixed top-0 left-0 h-screen w-64 bg-opacity-95 py-10 px-2' : 'hidden' } >
             <div  className="flex items-center gap-2 px-4 py-5 ">
                 <img src="/logotype-fg.PNG" alt="Logo unique Group" className="size-8"/>
                 <h1 className="text-white font-bold sm:text-3xl">Falcon G Technology</h1> 
@@ -33,7 +40,7 @@ const SideBar = ({sideBar}: { sideBar: boolean}) => {
                     <MainCTA linkText="Nous contacter" to="/contact" style="bg-main-yellow text-black w-full hover:bg-gray-900 px-5 py-3 rounded-md text-center"/>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
