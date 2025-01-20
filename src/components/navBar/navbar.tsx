@@ -25,7 +25,7 @@ const Navbar = () => {
                         <img className="size-12 sm:size-14" src="/logotype-fg.PNG" alt="Falcon G Technology" />
                     </picture>                
                 </Link>
-                <div className="hidden sm:flex items-center gap-12 ">
+                <div className="hidden desktop:flex items-center gap-12 ">
                     <Onglets/>
                     <MainCTA to="" linkText="Commander un logiciel"/>
                 </div>

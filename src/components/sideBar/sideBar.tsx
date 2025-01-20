@@ -10,7 +10,7 @@ const sidebarVariant = {
 const SideBar = ({sideBar}: { sideBar: boolean}) => {
     return (
         <motion.div variants={sidebarVariant} initial="initial" animate="animate"
-        className={ sideBar ? 'bg-black fixed top-0 left-0 h-screen w-64 bg-opacity-95 py-10 px-2' : 'hidden' } >
+        className={ sideBar ? 'bg-black fixed top-0 left-0 h-screen w-64 tablet:w-3/4 bg-opacity-95 py-10 px-2 tablet:px-4' : 'hidden' } >
             <div  className="flex items-center gap-2 px-4 py-5 ">
                 <img src="/logotype-fg.PNG" alt="Logo unique Group" className="size-8"/>
                 <h1 className="text-white font-bold sm:text-3xl">Falcon G Technology</h1> 
